@@ -1,6 +1,7 @@
 package net.marguerite68.first_mod;
 
 import com.mojang.logging.LogUtils;
+import net.marguerite68.first_mod.item.ModCreativeModTabs;
 import net.marguerite68.first_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTab;
@@ -32,6 +33,8 @@ public class FIRST_MOD
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -55,6 +58,7 @@ public class FIRST_MOD
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.KUTORI);
+            event.accept(ModItems.ERUKU);
         }
     }
 
