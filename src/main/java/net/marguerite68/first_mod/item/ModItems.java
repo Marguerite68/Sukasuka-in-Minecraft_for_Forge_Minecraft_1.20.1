@@ -2,7 +2,6 @@ package net.marguerite68.first_mod.item;
 
 import net.marguerite68.first_mod.FIRST_MOD;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
