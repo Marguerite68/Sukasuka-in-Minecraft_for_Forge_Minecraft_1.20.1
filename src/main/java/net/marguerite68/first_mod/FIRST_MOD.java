@@ -59,6 +59,8 @@ public class FIRST_MOD
         {
             event.accept(ModItems.KUTORI);
             event.accept(ModItems.ERUKU);
+            event.accept(ModItems.ITHEA);
+            event.accept(ModItems.NEPHREN);
         }
     }
 

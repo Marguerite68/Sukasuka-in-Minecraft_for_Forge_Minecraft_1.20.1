@@ -1,6 +1,8 @@
 {
   "item.my_first_mod.kutori": "珂朵莉",
   "item.my_first_mod.eruku": "艾露可",
+  "item.my_first_mod.ithea": "艾瑟雅",
+  "item.my_first_mod.nephren": "奈芙莲",
   "item.my_first_mod.sukasuka1_1": "末日三问 第一卷",
   "item.my_first_mod.sukasuka1_2": "末日三问 第二卷",
   "item.my_first_mod.sukasuka1_3": "末日三问 第三卷",
@@ -19,6 +21,7 @@
   "item.my_first_mod.sukasuka2_11": "末日二问 第十一卷",
   "item.my_first_mod.sukasuka_ex1": "异传 莉莉娅 第一卷",
   "item.my_first_mod.sukasuka_ex2": "异传 莉莉娅 第二卷",
+
 
   "creativetab.sukasuka_in_minecraft": "Sukasuka in Minecraft"
 }
