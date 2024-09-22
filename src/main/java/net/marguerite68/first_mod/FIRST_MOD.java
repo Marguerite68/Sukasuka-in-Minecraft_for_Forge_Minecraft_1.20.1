@@ -1,6 +1,7 @@
 package net.marguerite68.first_mod;
 
 import com.mojang.logging.LogUtils;
+import net.marguerite68.first_mod.block.ModBlocks;
 import net.marguerite68.first_mod.item.ModCreativeModTabs;
 import net.marguerite68.first_mod.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -36,6 +37,8 @@ public class FIRST_MOD
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

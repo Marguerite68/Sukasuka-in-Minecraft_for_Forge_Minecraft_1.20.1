@@ -1,6 +1,7 @@
 package net.marguerite68.first_mod.item;
 
 import net.marguerite68.first_mod.FIRST_MOD;
+import net.marguerite68.first_mod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -35,6 +36,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.SUKASUKA2_11.get());
                         pOutput.accept(ModItems.SUKASUKA_EX1.get());
                         pOutput.accept(ModItems.SUKASUKA_EX2.get());
+
+                        pOutput.accept(ModBlocks.TEST_BLOCK.get());
 
                     })
                     .build());
